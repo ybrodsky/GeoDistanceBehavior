@@ -21,8 +21,8 @@ To find data:
   $options = [
       'latitude' => -31.5021452,  //The reference latitude
       'longitude' => -60.541249,  //The reference longitude
-      'radius' => 2               //How far around the latitude and longitude where you want to search
-      'unit' => 'kilometres'      //Optional, override model configuration
+      'radius' => 2,              //How far around the latitude and longitude where you want to search
+      'unit' => 'kilometres',     //Optional, override model configuration
       'conditions' => [           //Optional, pass extra conditions to filter the results
           'active' => 1,
       ]
